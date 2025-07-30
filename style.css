@@ -1,0 +1,409 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #111;
+  line-height: 1.6;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 6%;
+  background: #fff;
+}
+
+#navigation-nav {
+  display: none;
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #111;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2.5rem;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #111;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+#profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 4rem 6%;
+  flex-wrap: wrap;
+  min-height: 80vh;
+}
+
+.section__pic-container img {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.section__text {
+  max-width: 400px;
+}
+
+.section__text__p1 {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0.5rem 0;
+  color: #111;
+}
+
+.section__text__p2 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #444;
+  margin-bottom: 1.5rem;
+}
+
+.btn-container {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 0.8rem 1.6rem;
+  border-radius: 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 2px solid #111;
+  font-weight: 500;
+}
+
+.btn-color-1 {
+  background: #111;
+  color: white;
+}
+
+.btn-color-2 {
+  background: white;
+  color: #111;
+}
+
+#socials-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+#about {
+  padding: 4rem 6%;
+  text-align: center;
+  background: #fafafa;
+}
+
+.section-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.about-pic {
+  width: 300px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.about-details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 600px;
+}
+
+.about-containers {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.details-container {
+  border: 2px solid #ddd;
+  border-radius: 20px;
+  padding: 2rem;
+  width: 250px;
+  text-align: center;
+  background: white;
+}
+
+.details-container h3 {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #111;
+}
+
+.details-container p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.text-container {
+  text-align: left;
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.7;
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+#experience {
+  padding: 4rem 6% 6rem 6%;
+  text-align: center;
+}
+
+.experience-sub-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #111;
+}
+
+.experience-box {
+  width: 350px;
+  min-height: 400px;
+  background: #fff;
+  border: 2px solid #ddd;
+  border-radius: 20px;
+  padding: 1.5rem;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+#experience .section-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.details-container article {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0.5rem 0;
+  text-align: left;
+}
+
+.details-container article h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #111;
+  margin: 0;
+}
+
+.details-container article p {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0;
+}
+
+/* Contact Section */
+#Contact {
+  padding: 6rem 6% 4rem 6%;
+  text-align: center;
+  background: #fafafa;
+}
+
+.contact-info-upper-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: white;
+  padding: 1rem 2rem;
+  border-radius: 15px;
+}
+
+.contact-info-container a {
+  text-decoration: none;
+  color: #111;
+  font-weight: 500;
+}
+
+form.form {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 15px;
+}
+
+form h2 {
+  margin-bottom: 1.5rem;
+  color: #111;
+  font-weight: 600;
+}
+
+form p {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #333;
+}
+
+form input {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: 2px solid #eee;
+  font-size: 1rem;
+}
+
+form button {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  background: #111;
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: #111;
+  color: white;
+}
+
+.navigation-menu {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  #desktop-nav {
+    display: none;
+  }
+  
+  #navigation-nav {
+    display: flex;
+  }
+  
+  .navigation-menu {
+    display: block;
+  }
+  
+  .navigation-icon {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .navigation-icon span {
+    width: 25px;
+    height: 3px;
+    background: #111;
+  }
+  
+  .menu-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    padding: 1rem;
+  }
+  
+  .menu-links.active {
+    display: block;
+  }
+  
+  .menu-links li {
+    list-style: none;
+    margin: 1rem 0;
+  }
+  
+  .menu-links a {
+    text-decoration: none;
+    color: #111;
+    font-weight: 500;
+  }
+  
+  #profile {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+  
+  .section__pic-container img {
+    width: 220px;
+    height: 220px;
+  }
+  
+  .title {
+    font-size: 2rem;
+  }
+  
+  .btn-container {
+    justify-content: center;
+  }
+  
+  .about-containers {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .details-container {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .experience-box {
+    max-width: 100%;
+  }
+}
