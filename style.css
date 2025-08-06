@@ -187,19 +187,19 @@ nav {
   border-radius: 15px;
 }
 
-#experience {
+#knowledge {
   padding: 4rem 6% 6rem 6%;
   text-align: center;
 }
 
-.experience-sub-title {
+.knowledge-sub-title {
   font-size: 1.6rem;
   font-weight: 600;
   margin-bottom: 1.5rem;
   color: #111;
 }
 
-.experience-box {
+.knowledge-box {
   width: 350px;
   min-height: 400px;
   background: #fff;
@@ -211,7 +211,7 @@ nav {
   flex-direction: column;
 }
 
-#experience .section-container {
+#knowledge .section-container {
   display: flex;
   flex-wrap: wrap;
   gap: 3rem;
@@ -406,4 +406,13 @@ footer {
   .experience-box {
     max-width: 100%;
   }
+}
+.details-container ul {
+  padding-left: 20px;
+}
+
+.details-container li {
+  margin-bottom: 6px;
+  color: var(--text-light);
+  font-size: 0.95rem;
 }
